@@ -1,5 +1,3 @@
-
-
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
@@ -35,23 +33,3 @@ app.use("/api/v1/users", userRouter);
 
 // Export the app instance
 export { app };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
